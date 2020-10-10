@@ -6,14 +6,12 @@ import { CursosComponent } from './cursos/cursos.component';
 import { ProfessoresComponent } from './professores/professores.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { BotaoComponent } from './botao/botao.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CursosComponent,
-    ProfessoresComponent,
-    BotaoComponent
+    ProfessoresComponent
   ],
   imports: [
     BrowserModule,
